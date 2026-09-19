@@ -26,7 +26,7 @@ Experiments are conducted on:
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/AATKD.git
+git clone https://github.com/xzc18/AATKD.git
 cd AATKD
 ```
 
