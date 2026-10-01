@@ -8,8 +8,7 @@ import random
 
 
 def get_data_folder():
-    # data_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../../../data")
-    data_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), "/data/cloud/public/datasets/cifar-100-python_1")
+    data_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../../../data")
     if not os.path.isdir(data_folder):
         os.makedirs(data_folder)
     return data_folder
